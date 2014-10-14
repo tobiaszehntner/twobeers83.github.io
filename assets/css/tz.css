@@ -349,7 +349,8 @@ p {
 /*  Text  */
 
 .text-title {
-	color: #000000; }
+	color: #000000;
+  text-align: left;  }
 
 .text-block {
 	background-color: #f1f1f1;
