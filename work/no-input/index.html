@@ -37,7 +37,7 @@
   		videojs.options.flash.swf = "/assets/swf/video-js.swf"
 		</script>
 
-		<!-- stylesheet -->
+		<!-- stylesheets / need to be loaded as late as possible in <head> and AFTER video-js.css -->
 		<link rel="stylesheet" href="/assets/css/normalize.css" type="text/css">
 		<link rel="stylesheet" href="/assets/css/tz.css" type="text/css">
 
@@ -145,14 +145,15 @@
   </div>
 </div>
 
-<!-- Vimeo video embedded
+<!-- Vimeo video embedded -->
+
 <div class="row">
   <div class="grid-full" style="padding-bottom:1em;">
     <div class="videoWrapper">
       <iframe src="http://player.vimeo.com/video/?title=0&amp;byline=0&amp;portrait=0&amp;color=3399ff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
-</div> -->
+</div>
 
 <!-- Installation Views Title -->
 

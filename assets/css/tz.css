@@ -613,6 +613,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 	width: 100%;
 	height: 100%; }
 
+/* Video-js added for responsive design */
+.video-js {padding-top: 56.25%} /* for 16:9 / devide height by widht */
+.vjs-fullscreen {padding-top: 0px}
+
 
 
 /* =============================================================

@@ -37,7 +37,7 @@
   		videojs.options.flash.swf = "/assets/swf/video-js.swf"
 		</script>
 
-		<!-- stylesheet -->
+		<!-- stylesheets / need to be loaded as late as possible in <head> and AFTER video-js.css -->
 		<link rel="stylesheet" href="/assets/css/normalize.css" type="text/css">
 		<link rel="stylesheet" href="/assets/css/tz.css" type="text/css">
 
@@ -147,25 +147,6 @@
   </div>
 </div>
 
-<!-- js video
-<div class="row">
-  <div class="grid-full" style="padding-bottom:1em;">
-    <div class="videoWrapper">
-      <video id="video_1" class="video-js vjs-default-skin"
-        controls preload="auto" width="500" height="281"
-        poster="/assets/vid/"
-        data-setup='{"example_option":true}'>
-       <source src="/assets/vid/" type='video/mp4' />
-       <source src="/assets/vid/" type='video/webm' />
-       <source src="/assets/vid/" type='video/ogg' />
-       <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>.
-         Alternatively, watch the video <a href="http://vimeo.com/102230973">on Vimeo</a>.</p>
-      </video>
-    </div>
-  </div>
-</div>
--->
-
 <!-- Vimeo video embedded -->
 
 <div class="row">
@@ -175,15 +156,6 @@
     </div>
   </div>
 </div>
-
-<!-- Vimeo video embedded
-<div class="row">
-  <div class="grid-full" style="padding-bottom:1em;">
-    <div class="videoWrapper">
-      <iframe src="http://player.vimeo.com/video/102230973?title=0&amp;byline=0&amp;portrait=0&amp;color=3399ff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-  </div>
-</div> -->
 
 
 			</section>
