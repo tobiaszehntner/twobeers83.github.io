@@ -1,4 +1,4 @@
-Updating video-js:
+When updating video-js, remember to:
 
 Change paths to fonts in video-js.css @font-face from ('font/...') to ('../font/...')
 
